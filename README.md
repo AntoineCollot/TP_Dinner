@@ -2,7 +2,7 @@
 
 Le but de ce TP est de réaliser un petit jeu de lancer de légumes. Le joueur doit lancer les légumes dans les tasses pour marquer des points.
 
-![DinnerGameplay.gif](Demo)
+![alt text](DinnerGameplay.gif "Demo")
 
 *Les scripts et les variables sont déjà créés. Utilisez les variables intelligement (normalement toutes sont à utiliser, pas besoin d'en rajouter). Attention les scripts ne sont pas forcément déjà placés dans la scène.*
 

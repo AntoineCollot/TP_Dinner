@@ -9,7 +9,7 @@ Le but de ce TP est de réaliser un petit jeu de lancer de légumes. Le joueur d
 ## Lanceur
 
 On travaille dans le script `VegetableThrower`.
-1. Dans l'éditeur, créer un prefab d'un brocoli et un prefab d'une carrote pour créer des projectiles. On utilisera un ou plusieurs SphereColliders et un Rigidbody (pas besoin d'être précis). Paramètrer le drag à 1. Ajouter ces prefabs au tableau de légumes du `VegetableThrower`.
+1. Dans l'éditeur, créer un prefab d'un brocoli et un prefab d'une carotte pour créer des projectiles. On utilisera un ou plusieurs SphereColliders et un Rigidbody (pas besoin d'être précis). Paramètrer le drag à 1. Ajouter ces prefabs au tableau de légumes du `VegetableThrower`.
 2. Créer une fonction `InstantiateRandomVegetable` qui instantie et retourne un légume aléatoire du tableau `vegetables`.
 3. Créer une fonction `ThrowVegetable(Rigidbody vegetable, float throwForce)` qui applique la force de lancer au légume en mode *Impulse* ainsi qu'une force de rotation aléatoire au légume. Le légume doit être lancé vers l'avant du `VegetableThrower`. *Il y a déjà un comportement qui pivote l'avant du vegetal thrower dans la bonne direction.*
 4. Faire en sorte que lorsque l'utilisateur maintient le clique gauche, la force de lancer se charge via la variable `throwForce01`. Lorsque l'utilisateur relache le bouton du clique gauche, le légume est lancé.

@@ -8,7 +8,7 @@ Le but de ce TP est de réaliser un petit jeu de lancer de légumes. Le joueur d
 
 ## Lanceur
 
-On travaille dans le script `VegetableThrower`.
+*On travaille dans le script `VegetableThrower`.*
 1. Dans l'éditeur, créer un prefab d'un brocoli et un prefab d'une carotte pour créer des projectiles. On utilisera un ou plusieurs SphereColliders et un Rigidbody (pas besoin d'être précis). Paramètrer le drag à 1. Ajouter ces prefabs au tableau de légumes du `VegetableThrower`.
 2. Créer une fonction `InstantiateRandomVegetable` qui instantie et retourne un légume aléatoire du tableau `vegetables`.
 3. Créer une fonction `ThrowVegetable(Rigidbody vegetable, float throwForce)` qui applique la force de lancer au légume en mode *Impulse* ainsi qu'une force de rotation aléatoire au légume. Le légume doit être lancé vers l'avant du `VegetableThrower`. *Il y a déjà un comportement qui pivote l'avant du vegetal thrower dans la bonne direction.*
@@ -17,14 +17,14 @@ On travaille dans le script `VegetableThrower`.
 
 ## Score
 
-On travaille dans le script `GameManager`.
+*On travaille dans le script `GameManager`.*
 1. Ajouter une fonction publique pour ajouter des points au score.
 2. Faire en sorte que les points soient sauvegardés lorsque l'on ferme le jeu et rechargés au lancement du jeu à l'aide de la documentation : https://docs.unity3d.com/ScriptReference/PlayerPrefs.SetInt.html
 3. Créer un texte de type TextMeshPro dans le canvas d'UI et mettre à jour sa valeur en fonction du score actuel.
 
 ## But
 
-On travaille dans le script `Goal`.
+*On travaille dans le script `Goal`.*
 1. Dans l'éditeur, 
     1. Ajouter un objet contenant un collider de type *Trigger* placé à l'entrée d'une tasse.
     2. Créer en enfant de ce collider un effet de particules représentant une gerbe d'eau qui sort de la tasse. Décocher les notions de *looping* et *play on Awake* de ce système de particle.
@@ -35,7 +35,7 @@ On travaille dans le script `Goal`.
 
 ## Poulet
 
-On travaille dans le script `BounceVegetable`.
+*On travaille dans le script `BounceVegetable`.*
 1. Ajouter un sphere collider au poulet.
 2. Ajouter une animation sur le poulet qui représente une collision avec un légume.
 3. Faire en sorte que lors d'une collision, le poulet joue l'animation mais aussi ajoute une force de type *Impulse* à l'objet qui rentre en collision avec lui.

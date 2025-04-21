@@ -43,4 +43,4 @@ Le but de ce TP est de réaliser un petit jeu de lancer de légumes. Le joueur d
     1. Calculer le vecteur partant du centre du poulet vers l'objet qui entre en collision.
     2. Déterminer une nouvelle direction comme un Lerp entre ce vecteur pouler/objet et le vecteur vers le haut en fonction de `bounceUpward`. Le but est de créer un vecteur qui serait un mélange des deux.
     3. Normalizer ce vecteur.
-    4. Utiliser ce vecteur comme direction pour la force (en mode *Impulse*) à ajouter au légume.
+    4. Utiliser ce vecteur comme direction pour la force à ajouter au légume.

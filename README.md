@@ -22,7 +22,7 @@ Le but de ce TP est de réaliser un petit jeu de lancer de légumes. Le joueur d
 2. Faire en sorte que les points soient sauvegardés lorsque l'on ferme le jeu et rechargés au lancement du jeu à l'aide de la documentation : https://docs.unity3d.com/ScriptReference/PlayerPrefs.SetInt.html
 3. Trouver dans la scène l'élément d'UI qui affiche le texte du score et mettre à jour sa valeur en fonction du score actuel.
 
-## But
+## Buts
 
 *On travaille dans le script `Goal`.*
 1. Dans l'éditeur, 
@@ -32,6 +32,7 @@ Le but de ce TP est de réaliser un petit jeu de lancer de légumes. Le joueur d
     4. Ajouter cet objet pour chaque tasse.
 
 2. Faire en sorte que le *Goal* joue l'effet de particule et ajoute des points au score lors d'une collision de type trigger (aka un légume rentre dans la tasse).
+3. Faire en sorte que les légumes ayant marqué un point soient détruits.
 
 ## Poulet
 
